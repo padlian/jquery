@@ -1,4 +1,13 @@
 $("#var1").keyup(function(){
-	var isi = $('#var1').val();
-	$("#target").html(isi*4);
+	var var1 = $('#var1').val();
+	var var2 = $('#var2').val();
+	var hasil = var1*var2;
+	$("#target").html(hasil);
+});
+
+$("#var2").keyup(function(){
+	var var1 = $('#var1').val();
+	var var2 = $('#var2').val();
+	var hasil = var1*var2;
+	$("#target").html(hasil);
 });
