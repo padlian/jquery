@@ -3,3 +3,6 @@ $(document).ready(function() {
     // 	$('#target').append(i);
     // }
 });
+
+ // if (i % 2 === 0) { /* we are even */ }
+ //   else { /* we are odd */ }
