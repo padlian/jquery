@@ -1,4 +1,5 @@
 .kotak{
 	height: 100px;
 	background: grey;
+	border: 1px solid #000;
 }
